@@ -86,10 +86,11 @@ LensInfo : Information of the lens present in the module.
 <CameraConfigurationRoot>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>s5k3p3</SensorName>
-    <ActuatorName>dw9767</ActuatorName>
+    <SensorName>s5k4h8</SensorName>
+    <EepromName>s5k4h8</EepromName>
+    <ActuatorName>dw9718s</ActuatorName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>s5k3p3_chromatix</ChromatixName>
+    <ChromatixName>s5k4h8_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -100,19 +101,44 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.59</FocalLength>
-      <FNumber>2.0</FNumber>
+      <FocalLength>3.2</FocalLength>
+      <FNumber>2.2</FNumber>
       <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>64.7</HorizontalViewAngle>
-      <VerticalViewAngle>51.0</VerticalViewAngle>
+      <HorizontalViewAngle>59.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.8</VerticalViewAngle>
+      <MinFocusDistance>0.07</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>imx219</SensorName>
+    <FlashName>pmic</FlashName>
+    <ActuatorName>dw9718s</ActuatorName>
+    <ChromatixName>imx219_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.2</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>59.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.8</VerticalViewAngle>
       <MinFocusDistance>0.07</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>mot_ov5695</SensorName>
-    <FlashName>wd3100</FlashName>
-    <ChromatixName>mot_ov5695_l5695f60_chromatix</ChromatixName>
+    <EepromName>ov5695</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>mot_ov5695_l5695fa0_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
@@ -123,34 +149,12 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>2.44</FocalLength>
+      <FocalLength>3.2</FocalLength>
       <FNumber>2.2</FNumber>
       <TotalFocusDistance>1.26</TotalFocusDistance>
-      <HorizontalViewAngle>72.95</HorizontalViewAngle>
-      <VerticalViewAngle>57.60</VerticalViewAngle>
+      <HorizontalViewAngle>58.5</HorizontalViewAngle>
+      <VerticalViewAngle>45.3</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>mot_s5k3p8sp</SensorName>
-    <FlashName>wd3100</FlashName>
-    <ChromatixName>mot_s5k3p8sp_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.519</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.2</TotalFocusDistance>
-      <HorizontalViewAngle>64.5</HorizontalViewAngle>
-      <VerticalViewAngle>50.3</VerticalViewAngle>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
