@@ -1,7 +1,6 @@
 #
-# FPC1020 Touch sensor driver
+# Egis Touch sensor driver
 #
-# Copyright (c) 2013,2014 Fingerprint Cards AB <tech@fingerprints.com>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License Version 2
@@ -9,8 +8,6 @@
 #
 
 device.internal = 1
-
-keyboard.layout = uinput-fpc 
+keyboard.layout = uinput-egis
 keyboard.builtIn = 1
 keyboard.orientationAware = 0
-
