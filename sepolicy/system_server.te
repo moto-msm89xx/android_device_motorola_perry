@@ -1,2 +1,0 @@
-allow system_server fpc_extension_service:hwservice_manager find;
-

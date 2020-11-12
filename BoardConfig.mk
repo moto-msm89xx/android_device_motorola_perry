@@ -10,10 +10,10 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 # Inherit from msm8937-common
 -include device/motorola/msm8937-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/montana
+DEVICE_PATH := device/motorola/perry
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := montana
+TARGET_OTA_ASSERT_DEVICE := perry
 
 # Display
 TARGET_SCREEN_DENSITY := 420
@@ -24,7 +24,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Kernel
 TARGET_CUSTOM_DTBTOOL := dtbTool_custom
 BOARD_DTBTOOL_ARGS := --force-v3 --motorola 1
-TARGET_KERNEL_CONFIG := montana_defconfig
+TARGET_KERNEL_CONFIG := perry_defconfig
 
 # NFC
 NXP_CHIP_TYPE := pn554
