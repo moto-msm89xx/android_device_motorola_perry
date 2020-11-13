@@ -18,9 +18,6 @@ TARGET_OTA_ASSERT_DEVICE := perry
 # Display
 TARGET_SCREEN_DENSITY := 420
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 TARGET_CUSTOM_DTBTOOL := dtbTool_custom
 BOARD_DTBTOOL_ARGS := --force-v3 --motorola 1
